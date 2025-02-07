@@ -1,6 +1,5 @@
+RUN pip install --upgrade pip
 pyTelegramBotAPI
 openai
 python-dotenv
 requests
-wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.py
