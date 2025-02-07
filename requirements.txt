@@ -1,5 +1,5 @@
-python -c "from pip._internal import main; main(['install', '--upgrade', 'pip'])"
 pyTelegramBotAPI
 openai
 python-dotenv
 requests
+pip install pip
