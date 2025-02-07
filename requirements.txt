@@ -1,4 +1,3 @@
-RUN pip install --upgrade pip
 pyTelegramBotAPI
 openai
 python-dotenv
