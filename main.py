@@ -3,6 +3,18 @@ import telebot
 from dotenv import load_dotenv
 import openai
 
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 12022))
+    app.run(host='0.0.0.0', port=port)
+
 # Загружаем переменные окружения из .env файла
 load_dotenv()
 
